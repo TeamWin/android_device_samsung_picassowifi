@@ -20,7 +20,7 @@
 #
 
 # Inherit from those products. Most specific first.
-#$(call inherit-product, device/samsung/picassowifi/device.mk)
+$(call inherit-product, device/samsung/picassowifi/device.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -34,4 +34,3 @@ PRODUCT_NAME := omni_picassowifi
 PRODUCT_DEVICE := picassowifi
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := picassowifi
-

@@ -36,14 +36,9 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
-TARGET_PREBUILT_KERNEL := device/samsung/picassowifi/kernAl
-# Kernel Configs
-#TARGET_KERNEL_SOURCE := kernel/samsung/picassowifi
-#TARGET_KERNEL_CONFIG := picassowifi_twrp_defconfig 
-#TARGET_KERNEL_SELINUX_CONFIG := 
-#TARGET_KERNEL_VARIANT_CONFIG := 
-#VARIANT_CONFIG := 
-#TIMA_DEFCONFIG :=
+#TARGET_PREBUILT_KERNEL := device/samsung/picassowifi/kernAl
+TARGET_KERNEL_CONFIG := lineageos_deathly_n1awifi_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/exynos5420
 
 
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file

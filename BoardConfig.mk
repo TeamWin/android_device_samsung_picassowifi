@@ -12,7 +12,6 @@ TARGET_BOARD_PLATFORM := smdk4x12
 # Flags
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60 -DQCOM_HARDWARE 
 
 # Architecture
 TARGET_CPU_VARIANT := cortex-a15
@@ -37,7 +36,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
 #TARGET_PREBUILT_KERNEL := device/samsung/picassowifi/kernAl
-TARGET_KERNEL_CONFIG := lineageos_deathly_n1awifi_defconfig
+TARGET_KERNEL_CONFIG := lineageos_deathly_n2awifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos5420
 
 

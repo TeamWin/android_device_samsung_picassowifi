@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := cm_picassowifi
+PRODUCT_NAME := lineage_picassowifi
 PRODUCT_DEVICE := picassowifi
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := picassowifi

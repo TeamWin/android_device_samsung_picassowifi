@@ -39,6 +39,7 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 TARGET_KERNEL_CONFIG := lineageos_deathly_n2awifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos5420
 KERNEL_TOOLCHAIN_PREFIX := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
+LZMA_RAMDISK_TARGETS := boot,recovery
 
 
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file

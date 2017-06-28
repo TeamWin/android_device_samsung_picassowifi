@@ -82,4 +82,4 @@ TW_INCLUDE_L_CRYPTO := true
 #TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,errors=panic"
 #TW_CRYPTO_FS_FLAGS := "0x00000406"
 #TW_CRYPTO_KEY_LOC := "footer"
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/picassowifi/custombootimg.mk
+#BOARD_CUSTOM_BOOTIMG_MK := device/samsung/picassowifi/custombootimg.mk
